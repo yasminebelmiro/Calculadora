@@ -77,7 +77,7 @@ const Home = () => {
         <div className="number-container">
           <Button text="C" onClick={() => handleClear()} />
           <Button
-            text={<LuDelete className="icon" />}
+            text={<LuDelete/>}
             onClick={() => handleClearPrev()}
           />
           <Button text="%" onClick={() => handleOperation("%")} />
